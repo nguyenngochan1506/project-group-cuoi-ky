@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group-Diary</title>
+    <!-- CSS FILES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link href="css/templatemo-pod-talk.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/groupDiary.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="navbar navbar-expand-lg">
+    </nav>
+    <!-- end header -->
+    <!-- content -->
+    <header class="site-header d-flex flex-column justify-content-center align-items-center">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-12 col-12 text-center">
+                    <h2 class="mb-0">Group Diary</h2>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <main class="row">
+        <div class="col-3">
+            <div class="d-flex flex-column flex-shrink-0 p-3 text-black custom-sidebar">
+                <h4 href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+                    <span class="fw-bold">Daily works</span>
+                </h4>
+                <hr>
+                <ul class="nav nav-pills flex-column mb-auto">
+                    <li class="nav-item">
+                        <a class="nav-link week-link active " id="week-1" aria-current="page">
+                            Tuần 1
+                        </a>
+                        <a class="nav-link week-link " id="week-2" aria-current="page">
+                            Tuần 2
+                        </a>
+                        <a class="nav-link week-link  " id="week-3" aria-current="page">
+                            Tuần 3
+                        </a>
+                        <a class="nav-link week-link  " id="week-4" aria-current="page">
+                            Tuần 4
+                        </a>
+                        <a class="nav-link week-link  " id="week-5" aria-current="page">
+                            Tuần 5
+                        </a>
+                        <a class="nav-link week-link  " id="week-6" aria-current="page">
+                            Tuần 6
+                        </a>
+                        <a class="nav-link week-link  " id="week-7" aria-current="page">
+                            Tuần 7 (cuối kỳ)
+                        </a>
+                        <a class="nav-link week-link  " id="week-99" aria-current="page">
+                            Tổng Hợp
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-8 my-table">
+            <div class="text-center mt-3"><h4>Group-04 Diary</h4></div>
+            <h6 class=" text-center mt-0 mb-4" id="week-title">(Week-1)</h6>
+            <table class="table  table-hover">
+                <thead class="h4">
+                    <tr>
+                        <th>STT</th>
+                        <th>Công Việc</th>
+                        <th>Người Thực Hiện</th>
+                        <th>Ngày Bắt Đầu</th>
+                        <th>Ngày Kết Thúc</th>
+                        <th>Trạng Thái</th>
+                    </tr>
+                </thead>
+                <tbody class="h5">
+                    <tr>
+                        <th>#1</th>
+                        <td>Làm Chức Năng Group Diary</td>
+                        <td>Nguyễn Ngọc Hân</td>
+                        <td>28-11-2023</td>
+                        <td>30-11-2023</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <th>#2</th>
+                        <td>Làm giao diện cho trang About</td>
+                        <td>Lê Bá Khánh Duy</td>
+                        <td>28-11-2023</td>
+                        <td>30-11-2023</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <th>#3</th>
+                        <td>Làm giao diện cho trang Admin Home Page</td>
+                        <td>Hoàng Lê Nguyên Mạnh</td>
+                        <td>28-11-2023</td>
+                        <td>03-12-2023</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <th>#4</th>
+                        <td>Làm giao diện cho trang Category</td>
+                        <td>Đăng Văn Trung</td>
+                        <td>28-11-2023</td>
+                        <td>03-12-2023</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                    <tr>
+                        <th>#5</th>
+                        <td>Làm giao diện cho trang Admin User Manager</td>
+                        <td>Nguyễn Vũ Bảo</td>
+                        <td>28-11-2023</td>
+                        <td>05-12-2023</td>
+                        <td>Hoàn thành</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="my-file text-white">
+
+            </div>
+        </div>
+    </main>
+    <!-- end content -->
+    <!-- footer -->
+    <footer class="site-footer">
+    </footer>
+    <!-- end footer -->
+
+    <!-- JAVASCRIPT FILES -->
+    <script>
+        fetch('./component/header.html').then(data => data.text()).then(data => document.querySelector('.navbar').innerHTML = data)
+        fetch('./component/footer.html').then(data => data.text()).then(data => document.querySelector('footer').innerHTML = data)
+    </script>
+    <script src="./js/groupDiary.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+</body>
+
+</html>

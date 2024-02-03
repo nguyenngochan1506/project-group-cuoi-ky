@@ -1,0 +1,6 @@
+*{
+    font-family: monospace !important;
+}
+.week-link{
+    cursor: pointer;
+}
