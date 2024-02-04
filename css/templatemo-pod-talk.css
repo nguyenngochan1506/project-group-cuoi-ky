@@ -119,7 +119,7 @@ button {
 
 a {
   display: inline-block;
-  color: var(--primary-color);
+  /* color: var(--primary-color); */
   text-decoration: none;
 }
 
