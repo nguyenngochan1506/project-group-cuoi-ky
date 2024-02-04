@@ -169,10 +169,10 @@ const handleRenderTab = (tab) => {
                                 <div id="design-paper">
                                     <div class="title text-center">
                                         <h5 class="text-center">Trên Giấy</h5>
-                                        <a class="btn btn-success " href="./images/design/homePage.png" target="_blank"
+                                        <a class="btn btn-success " href="./images/design/22130071_NguyenNgocHan_HomePage.jpg" target="_blank"
                                             id="btn-dowloadn-paper" rel="noopener noreferrer" download="design">Tải Xuống</a>
                                     </div>
-                                    <img class="img-fluid mt-2" src="./images/design/homePage.png" alt="home">
+                                    <img class="img-fluid mt-2" src="./images/design/22130071_NguyenNgocHan_HomePage.jpg" alt="home">
                                 </div>
                                 <div id="design-figma">
                                     <div class="title text-center">
@@ -321,8 +321,8 @@ const week = (n) => {
     document.querySelectorAll('.week-link').forEach(week => week.classList.remove('active'))
     switch (n) {
         case 'home':
-            imgPaper.setAttribute('src', './images/design/homePage.png')
-            btnDownload.setAttribute('href', './images/design/homePage.png')
+            imgPaper.setAttribute('src', './images/design/22130071_NguyenNgocHan_HomePage.jpg')
+            btnDownload.setAttribute('href', './images/design/22130071_NguyenNgocHan_HomePage.jpg')
 
             imgFigma.setAttribute('src', './images/design/homePageFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/homePageFigma.png')
@@ -332,8 +332,8 @@ const week = (n) => {
             break;
 
         case 'login':
-            imgPaper.setAttribute('src', './images/design/login.jpg')
-            btnDownload.setAttribute('href', './images/design/login.jpg')
+            imgPaper.setAttribute('src', './images/design/22130024_NguyenVuBao_Login.jpg')
+            btnDownload.setAttribute('href', './images/design/22130024_NguyenVuBao_Login.jpg')
 
             imgFigma.setAttribute('src', './images/design/loginFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/loginFigma.png')
@@ -343,8 +343,8 @@ const week = (n) => {
             break;
 
         case 'signup':
-            imgPaper.setAttribute('src', './images/design/signup.jpg')
-            btnDownload.setAttribute('href', './images/design/signup.jpg')
+            imgPaper.setAttribute('src', './images/design/22130058_LeBaKhanhDuy_Signup.jpg')
+            btnDownload.setAttribute('href', './images/design/22130058_LeBaKhanhDuy_Signup.jpg')
 
             imgFigma.setAttribute('src', './images/design/sigupFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/sigupFigma.png')
@@ -355,13 +355,20 @@ const week = (n) => {
             break;
 
         case 'forgot':
+            imgPaper.setAttribute('src', './images/design/22130163_HoangLeNguyenManh_ForgotPassword.jpg')
+            btnDownload.setAttribute('href', './images/design/22130163_HoangLeNguyenManh_ForgotPassword.jpg')
+
+            imgFigma.setAttribute('src', './images/design/forgotFigma.jpg')
+            btnDownloadFigma.setAttribute('href', './images/design/forgotFigma.png')
+            goFigma.setAttribute('href', 'https://www.figma.com/file/hDuepywanvNOqjxevRDZaO/Untitled?type=design&node-id=0-1&mode=design&t=KBgASYkll2Z4zdFt-0')
+
 
             document.querySelector('#forgot').classList.add('active')
             break;
 
         case 'about':
-            imgPaper.setAttribute('src', './images/design/about.jpg')
-            btnDownload.setAttribute('href', './images/design/about.jpg')
+            imgPaper.setAttribute('src', './images/design/22130058_LeBaKhanhDuy_About.jpg')
+            btnDownload.setAttribute('href', './images/design/22130058_LeBaKhanhDuy_About.jpg')
 
             imgFigma.setAttribute('src', './images/design/aboutFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/aboutFigma.png')
@@ -371,8 +378,8 @@ const week = (n) => {
             document.querySelector('#about').classList.add('active')
             break;
         case 'change':
-            imgPaper.setAttribute('src', './images/design/change.jpg')
-            btnDownload.setAttribute('href', './images/design/change.jpg')
+            imgPaper.setAttribute('src', './images/design/22130024_NguyenVuBao_Change.jpg')
+            btnDownload.setAttribute('href', './images/design/22130024_NguyenVuBao_Change.jpg')
 
             imgFigma.setAttribute('src', './images/design/changFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/changFigma.png')
@@ -382,8 +389,8 @@ const week = (n) => {
             break;
 
         case 'admin-home':
-            imgPaper.setAttribute('src', './images/design/adminHome.jpg')
-            btnDownload.setAttribute('href', './images/design/adminHome.jpg')
+            imgPaper.setAttribute('src', './images/design/22130163_HoangLeNguyenManh_AdminHome.jpg')
+            btnDownload.setAttribute('href', './images/design/22130163_HoangLeNguyenManh_AdminHome.jpg')
 
             imgFigma.setAttribute('src', './images/design/adminHomeFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/adminHomeFigma.png')
@@ -393,8 +400,8 @@ const week = (n) => {
             document.querySelector('#admin-home').classList.add('active')
             break;
         case 'admin-anime':
-            imgPaper.setAttribute('src', './images/design/adminAnime.jpg')
-            btnDownload.setAttribute('href', './images/design/adminAnime.jpg')
+            imgPaper.setAttribute('src', './images/design/22130058_LeBaKhanhDuy_AdminAnime.jpg')
+            btnDownload.setAttribute('href', './images/design/22130058_LeBaKhanhDuy_AdminAnime.jpg')
 
             imgFigma.setAttribute('src', './images/design/adminAnimeFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/adminAnimeFigma.png')
@@ -404,8 +411,8 @@ const week = (n) => {
             document.querySelector('#admin-anime').classList.add('active')
             break;
         case 'admin-user':
-            imgPaper.setAttribute('src', './images/design/adminUser.jpg')
-            btnDownload.setAttribute('href', './images/design/adminUser.jpg')
+            imgPaper.setAttribute('src', './images/design/22130024_NguyenVuBao_AdminUser.jpg')
+            btnDownload.setAttribute('href', './images/design/22130024_NguyenVuBao_AdminUser.jpg')
 
             imgFigma.setAttribute('src', './images/design/adminUserFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/adminUserFigma.png')
@@ -417,8 +424,8 @@ const week = (n) => {
 
         case 'watching':
 
-            imgPaper.setAttribute('src', './images/design/watching.jpg')
-            btnDownload.setAttribute('href', './images/design/watching.jpg')
+            imgPaper.setAttribute('src', './images/design/22130163_HoangLeNguyenManh_Watching.jpg')
+            btnDownload.setAttribute('href', './images/design/22130163_HoangLeNguyenManh_Watching.jpg')
 
             imgFigma.setAttribute('src', './images/design/watchingFigma.png')
             btnDownloadFigma.setAttribute('href', './images/design/watchingFigma.png')
