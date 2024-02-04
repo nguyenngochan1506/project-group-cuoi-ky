@@ -308,7 +308,34 @@ const handleRenderTab = (tab) => {
 }
 
 const handleDownloadAll = ()=>{
-    console.log('đao');
+    const arrLinks = ['./images/design/22130071_NguyenNgocHan_HomePage.jpg',
+    './images/design/homePageFigma.png',
+    './images/design/22130024_NguyenVuBao_Login.jpg',
+    './images/design/loginFigma.png',
+    './images/design/22130058_LeBaKhanhDuy_Signup.jpg',
+    './images/design/sigupFigma.png',
+    './images/design/22130163_HoangLeNguyenManh_ForgotPassword.jpg',
+    './images/design/forgotFigma.jpg',
+    './images/design/22130058_LeBaKhanhDuy_About.jpg',
+    './images/design/aboutFigma.png',
+    './images/design/22130024_NguyenVuBao_Change.jpg',
+    './images/design/changFigma.png',
+    './images/design/22130163_HoangLeNguyenManh_AdminHome.jpg',
+    './images/design/adminHomeFigma.png',
+    './images/design/22130058_LeBaKhanhDuy_AdminAnime.jpg',
+    './images/design/adminAnimeFigma.png',
+    './images/design/22130024_NguyenVuBao_AdminUser.jpg',
+    './images/design/adminUserFigma.png',
+    './images/design/22130163_HoangLeNguyenManh_Watching.jpg',
+    './images/design/watchingFigma.png',
+    './images/design/groupDiary.png','./images/design/groupDiaryFigma.png']
+
+    arrLinks.forEach(link =>{
+        const ele = document.createElement('a');
+        ele.href = link;
+        ele.download =link.slice(16, link.length)
+        ele.click();
+    })
 }
 
 const week = (n) => {
